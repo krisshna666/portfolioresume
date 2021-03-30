@@ -465,7 +465,7 @@ img{
     }
     .home__img{
         width: 524px;
-        right: 10%;
+        
     }
 
     .about__container{
@@ -521,7 +521,7 @@ img{
     }
     .home__img {
         width: 400px;
-        right: 24%;
+        
     }
 }
 .contact__form{
@@ -538,10 +538,4 @@ img{
     to{
         right: 40px;
     }
-}
-@media screen and(max-width:768px)
-    {
-        .about__img{
-          display:none;
-        }
 }
