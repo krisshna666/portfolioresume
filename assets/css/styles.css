@@ -221,14 +221,24 @@ img{
     transform: rotate(-180deg);
     color: var(--white-color);
 }
+@media screen and(min-width:900px)
+    {
 .home__img{
     position: absolute;
     right: -200px;
     bottom: 100px;
     width: 200px;
-
+        }
 }
-
+@media screen and(max-width:768px)
+    {
+.home__img{
+    position: absolute;
+    right: 20px;
+    bottom: 100px;
+    width: 200px;
+        }
+}
 /* ===== ABOUT =====*/
 .about__container{
     justify-items: center;
