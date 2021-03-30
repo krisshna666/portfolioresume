@@ -12,6 +12,7 @@
 
         <title>Portfolio responsive complete</title>
         <style>
+       <style>
         @media only screen and(max-width:1080px)
         {
             .home{
@@ -419,6 +420,21 @@ height: 100px;
         right:0px;
     }
 }
+#transfor{
+    position: relative;
+    transition: all;
+    animation-name: transformers;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes transformers{
+    from{
+        left: -100px;
+    }
+    to{
+        left:0px;
+    }
+}
 
         </style>
     </head>
@@ -454,16 +470,16 @@ height: 100px;
         <main class="l-main" style="background-color: wheat">
             <!--===== HOME =====-->
             <section class="home" id="home" style="background-color: rgb(243, 165, 180)" >
-                <div class="home__container bd-grid" >
+                <div class="home__container bd-grid">
                   
                     <p style="font-size: 4.7em;color: black; line-height: 75px;" class="home__title"><span>SRI<br>
                         KRISHNA S</span><br><span style="color: black;font-size:0.3em;line-height: 2px;">UI designer and full-stack dev.</span></p>
-                    <div id="transformer"></div>
+                    <div id="transfor">Not your average web developer. A full stack developer familiar with angular, javascript and jquery</div>
                     <div class="home__scroll">
                         <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
                     </div>
 
-                    <h4 id="mainimg" style="color:crimson"  alt="" class="home__img">Not your average web developer. A full stack developer familiar with angular, javascript and jquery</h4>
+                    <!-- <h4 id="mainimg" style="color:crimson"  alt="" class="home__img">Not your average web developer. A full stack developer familiar with angular, javascript and jquery</h4> -->
                 </div>
             </section>
          
@@ -594,9 +610,7 @@ height: 100px;
                             <input type="text" placeholder="Name" class="contact__input">
                             <input type="mail" placeholder="Email" class="contact__input">
                         </div>
-
                         <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-
                         <input type="submit" value="Get in touch" class="contact__button">
                     </form> -->
                     <!-- <div id="foot" style="float: right;margin-right: -200px;">
