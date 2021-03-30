@@ -234,8 +234,8 @@ img{
     {
 .home__img{
     position: absolute;
-   padding-left:-100px;
-    bottom: 100px;
+   padding-left:0%;
+    top: 10px;
     width: 200px;
         }
 }
