@@ -230,7 +230,7 @@ img{
     width: 200px;
         }
 }
-@media screen and(max-width:768px)
+/* @media screen and(max-width:768px)
     {
 .home__img{
     position: absolute;
@@ -238,7 +238,7 @@ img{
     top: 10px;
     width: 200px;
         }
-}
+} */
 /* ===== ABOUT =====*/
 .about__container{
     justify-items: center;
