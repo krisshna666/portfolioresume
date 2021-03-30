@@ -529,3 +529,10 @@ img{
         right: 40px;
     }
 }
+@media screen and(max-width:768px)
+    {
+        .about__img{
+            padding-left:100px;
+            padding-bottom:20px;
+        }
+}
