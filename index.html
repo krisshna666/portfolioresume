@@ -454,7 +454,7 @@ height: 100px;
 
         </style>
     </head>
-    <body>
+    <body onload="sri()">
       
         <header  id="heads" class="l-header" style="background-color:rgb(253, 133, 133)";>
             <nav class="nav bd-grid">
@@ -490,7 +490,7 @@ height: 100px;
                   
                     <p style="font-size: 4.7em;color: black; line-height: 75px;" class="home__title"><span>SRI<br>
                         KRISHNA S</span><br><span style="color: black;font-size:0.3em;line-height: 2px;">UI designer and full-stack dev.</span></p>
-                    <div id="transfor">Not your average web developer. A full stack developer familiar with angular, javascript and jquery</div>
+                    <h3 style="font-size:1.5em" id="transfor"></h3>
                     <div class="home__scroll">
                         <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
                     </div>
@@ -675,5 +675,18 @@ height: 100px;
 
     
         <script src="assets/js/main.js"></script>
+               <script>
+                  i=0;
+                  var texts="Not your average web developer. A full stack developer familiar with angular, javascript and jquery";
+                   function sri()
+                   {
+                       if(i<texts.length)
+                       {
+                           document.getElementById("transfor").innerHTML=texts.charAt(i);
+                           i++;
+                       }
+                       setTimeout(sri,100);
+                   }
+               </script>
     </body>
     </html>
